@@ -153,7 +153,7 @@ function RegistrationForm(){
             </div>
 
             <Button variant = "primary" type = "submit">
-                Submit
+                Register
             </Button>
 
         </Form>
