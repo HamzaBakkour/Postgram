@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import LoginForm from "../components/authentication/LoginForm";
 import ForgotPassword from "../components/authentication/ForgotPasswordForm";
 
-// de5sdfNmd32fo
-
 function Login() {
 
     return (
