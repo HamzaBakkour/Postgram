@@ -2,7 +2,7 @@ version: '2'
 
 services:
     nginx: 
-        restart: always
+        restart: unless-stopped
         build:
             context: .
             dockerfile: ./docker/nginx/Dockerfile
