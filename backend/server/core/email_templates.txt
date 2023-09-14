@@ -1,0 +1,56 @@
+<body class="bg-blue-100">
+  <div class="container">
+    <div class="card rounded-3xl px-4 py-5">
+      <h2 class="text-primary text-center">
+        Postgram Accout Activation
+      </h2>
+      <p class="mt-5">
+      Hello there! <br/>
+      You received this mail because you attempted to make an account on <span class="text-primary">HamzaBakkourPostgram.</span>  
+      Please click on the button below to verify your email and activate your account.
+      </p>
+      <p class="mt-10">
+        <a class="btn btn-primary btn-large" href={{link}}>Activate account</a>
+      </p>
+    </div>
+  </div>
+</body>
+
+
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+    body {
+        background-image: linear-gradient(to right, rgb(218, 28, 123) , rgb(0, 110, 253));
+        /* background-image: linear-gradient(rgb(117, 224, 67), rgb(15, 231, 247)); */
+
+    }
+    </style>
+  </head>
+  <body class="bg-white-100 ">
+    <div class="container-fluid mt-5 bg-blue-100">
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
+                <div class="jumbotron">
+                    <h2 class="text-primary text-center">
+                        Postgram Password Reset
+                    </h2>
+                    <p>
+                        Hello there! You are reciving this email because you request a password reset on <span class="text-primary">HamzaBakkourPostgram.</span>  
+              Please click on the reset link to go to the password reset page.
+                    </p>
+                    <p>
+                        <a class="btn btn-primary btn-large" href={{reset_password_url}}>Reset password</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

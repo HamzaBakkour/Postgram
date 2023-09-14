@@ -1,0 +1,8 @@
+backend/server/chapter1_venv/
+backend/server/.env/
+docker/nginx/certbot/
+frontend/node_modules/
+backend/server/django_static/
+__pycache__/
+*.py[cod]
+**.pyc
