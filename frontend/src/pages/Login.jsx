@@ -24,8 +24,8 @@ function Login() {
                         <hr/>
                         <p  className = "d-flex justify-content-center">
                                 <a href="https://postgram.hamzabakkour.se/api/schema/swagger-ui/#/" className="link-info p-3 text-decoration-none" >API</a>
-                                <a href="#" className="link-info p-3 text-decoration-none">Backend</a>
-                                <a href="#" className="link-info p-3 text-decoration-none">Frontend</a>
+                                <a href="https://github.com/HamzaBakkour/Postgram/" className="link-info p-3 text-decoration-none">Source code</a>
+
                         </p>
                     </div>
                 </div>
